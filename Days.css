@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.Header, .Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  height: 100px;
+  width: 100%;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  background-color: #24429C;
+  color: #1CA64C;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid black;
+  height: 800px;
+  width: 100%;
+  background-image: url('../JS/Assets/Pagani/2018 Pagani Huayra Roadster/2018 Pagani Huayra Roadster.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Day {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 0 5px 0;
+  border-top-color: #9EA2A2;
+  border-right-color: #9EA2A2;
+  border-bottom-color: #9EA2A2;
+  border-left-color: #9EA2A2;
+  height: auto;
+  width: auto;
+  font-family: 'Bangers';
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  background-color: #221C35;
+  color: #78BE20;
+}
+
+#Check {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 8px 0px 20px 0px;
+  border-top-color: #9EA2A2;
+  border-right-color: #9EA2A2;
+  border-bottom-color: #9EA2A2;
+  border-left-color: #9EA2A2;
+  height: auto;
+  width: auto;
+  font-family: 'Bangers';
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  background-color: #221C35;
+  color: #78BE20;
+}
+
+#Visualizer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  /*border: 5px solid #FFD700;*/
+  height: 650px;
+  width: 80%;
+  font-family: 'Bangers', cursive;
+  font-size: 200px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  word-break: normal;
+  color: #79C019;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
