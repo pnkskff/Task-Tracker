@@ -12,7 +12,7 @@ I. INTRO:
 
 II. NOTES:
 
-  1. Built with HTML/CSS/JS.
+  1. Build with HTML/CSS/JS.
 
 III. OPTIMIZATION:
 
