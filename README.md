@@ -22,7 +22,7 @@ III. OPTIMIZATION:
   
   3. Ability to upload/edit/delete Images. 
   
-  4. Link 6with Server to keep and serve User and Tasks.
+  4. Link with Server to keep and serve User and Tasks.
   
 IV: FURTHER INFO:
 
